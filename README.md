@@ -1,3 +1,4 @@
+npm install for running 
 
 # Spotify Clone (Team 7) 
 
