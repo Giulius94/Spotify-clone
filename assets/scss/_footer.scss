@@ -1,0 +1,50 @@
+#corpoArtist {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.corpoAlbumArtist {
+    background-image: linear-gradient(to bottom, #343434, #2e2e2e, #282828, #232323, #1d1d1d, #1a1a1a, #181818, #151515, #141414, #141414, #131313, #121212);
+}
+
+.titoloArtist {
+    font-size: 6rem;
+}
+
+#artistImg {
+    object-fit: cover;
+}
+
+#badgeArtist {
+    background-color: #1DD55F;
+    width: 1.3rem;
+    height: 1.3rem;
+    top: 90%;
+    left: 80%;
+    i {
+        font-size: 80%;
+    }
+}
+
+.row.mb-3 {
+#playPauseNew:hover {
+        scale: 1.1;
+    }
+    
+    button:hover {
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        scale: 1.1;
+    }
+    i:hover {
+        color: white;
+        scale: 1.1;
+
+    }
+}
+
+#artistPicSong {
+    width: 4rem;
+}

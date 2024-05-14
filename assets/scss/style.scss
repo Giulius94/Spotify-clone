@@ -1,0 +1,378 @@
+@import "override-bootstrap";
+@import "header";
+@import "footer";
+@import "main";
+
+
+
+
+a {
+  text-decoration: none;
+  color: grey;
+
+  &:hover {
+    color: white;
+  }
+
+}
+
+body {
+  height: 100vh;
+  font-family: "Circular" sans-serif;
+}
+
+.nav-link {
+  color: grey;
+
+  &:hover {
+    color: white;
+  }
+
+  &:active {
+    color: white;
+  }
+
+  &:focus {
+    color: white;
+  }
+}
+
+#player {
+  i {
+    font-size: 1rem;
+    color: #b1afa9;
+    margin: 0 0.3rem;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .bi-skip-start-fill,
+  .bi-pause-circle-fill,
+  .bi-play-circle-fill,
+  .bi-skip-end-fill {
+    font-size: 2rem;
+  }
+
+  #playerCard {
+    background-color: transparent;
+    width: 16rem;
+
+    p,
+    h6 {
+      font-size: 80%;
+      margin: 0;
+    }
+
+    p {
+      color: #b1afa9;
+    }
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.rounded-circle {
+  width: 40px;
+}
+
+.txtside {
+  color: #b1afa9;
+}
+
+#activity {
+  margin-left: 0;
+  background-color: #121212;
+}
+
+.sidebarR p {
+  font-size: 0.8rem;
+  color: #b1afa9;
+}
+
+#sidebarL {
+  border-bottom: 1px solid #212121;
+  overflow: hidden;
+  position: relative;
+  height: 40vh;
+  background-color: #121212;
+}
+
+#playlistCol {
+  height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 10rem;
+}
+
+#corpo {
+  color: white;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  padding-bottom: 10rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(24deg, rgba(0, 0, 0, 1) 0%, rgba(32, 32, 32, 1) 100%);
+
+  #nomeUtente button {
+    background-color: #0A0A0A;
+    border: none;
+  }
+
+  .row,
+  .col {
+    padding: 0;
+    margin: 0.2rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(24deg, rgba(0, 0, 0, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  }
+
+  .card.bg-black.text-white.mb-3 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(24deg, rgba(0, 0, 0, 1) 0%, rgba(32, 32, 32, 1) 100%);
+    border: none;
+  }
+
+  .card.mb-3.border-0 {
+    background-color: #2D2D2D;
+  }
+}
+
+#playerCard,
+#volume {
+  width: 20%;
+}
+
+#playerIcons {
+  width: 60%;
+}
+
+#player {
+  height: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  position: sticky;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4D4D4D;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#navbarL {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+}
+
+input[type="range"] {
+  background-color: blue;
+  color: #5e5e5e;
+  width: 32rem;
+  height: 0.3rem;
+  margin: 0 0.3rem;
+}
+
+.bi-bookmark-fill {
+  font-size: 0.6rem;
+  padding: 0.3rem 0.4rem;
+}
+
+.d-inline.pe-2 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
+.propicAttivita {
+  img {
+    width: 1.5rem;
+    border-radius: 50%;
+    padding: 4px 0;
+  }
+}
+
+#playPauseNew, #playPauseNewArtist {
+  color: #1ed760;
+  font-size: 3rem;
+}
+
+#albumInfo {
+  font-size: 80%;
+  color: #8b8a87;
+
+}
+
+#corpoAlbum {
+  background: rgb(117, 101, 41);
+  background: linear-gradient(0deg, rgba(117, 101, 41, 1) 24%, rgba(204, 177, 73, 1) 83%);
+}
+
+.corpoAlbumNew {
+  background: rgb(18, 18, 18);
+  // background: linear-gradient(0deg, rgba(18, 18, 18, 1) 19%, rgba(39, 35, 22, 1) 46%, rgba(91, 78, 32, 1) 83%);
+}
+
+.propicArtist {
+  width: 2rem;
+}
+
+.titoloAlbumNew {
+  font-size: 6rem;
+}
+
+#corpoAlbum {
+  color: white;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+
+  #nomeUtenteAlbum button {
+    background-color: #423918;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(24deg, rgba(0, 0, 0, 1) 0%, rgba(32, 32, 32, 1) 100%);
+  }
+
+  #bannerPrincipaleAlbumAlbum {
+    .albumInfoNew span.durataAlbumNew {
+      font-weight: 300;
+    }
+
+    .annoAlbumNew,
+    .braniAlbumNew {
+      font-weight: 400;
+    }
+  }
+}
+
+
+
+
+.row.mb-3 {
+  color: #C4C1B3;
+
+  i:hover {
+    color: white;
+  }
+}
+
+.row.my-2 p,
+.row.my-2 .text-end {
+  color: #8b8a87;
+}
+
+h5 {
+  font-size: 95%;
+  color: #ECEBEB;
+}
+
+
+
+hr {
+  width: 80%;
+}
+
+#freccieCambioAlbumGrande i {
+  background-color: #1b1a1a;
+  padding: 0.3rem 0.5rem 0.3rem 0.4rem;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: #252222;
+  }
+}
+
+#buonaseraCards {
+  .row .col-4 .card:hover {
+    background-color: #3b3a3a;
+  }
+}
+
+
+#cardDinamiche {
+  .hoverScale:hover {
+    background-color: #3b3a3a;
+    transform: scale(1.02);
+  }
+}
+
+#bannerPrincipaleAlbum .card img:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #121212;
+}
+
+input.form-control {
+  background: rgba(32, 32, 32, 1);
+  color: grey;
+
+  &:hover {
+    background: rgb(47, 46, 46);
+    border-color: white;
+  }
+
+  &:focus {
+    background: rgb(47, 46, 46);
+    border: none;
+    color: grey;
+    outline-color: white;
+  }
+
+  &::placeholder {
+    color: grey;
+  }
+}
+
+#corpoSearchCards {
+  .card {
+    background-color: rgb(220, 20, 140);
+  }
+
+  .card-body {
+    overflow: hidden;
+    position: relative;
+    height: 12rem;
+
+    h4 {
+      font-size: 1.4rem
+    }
+
+    img {
+      width: 60%;
+      transform: rotate(20deg);
+      position: absolute;
+      left: 55%;
+      bottom: -10%;
+    }
+  }
+}
+
+.row.text-light.my-2 {
+  margin-bottom: 1em !important;
+}
