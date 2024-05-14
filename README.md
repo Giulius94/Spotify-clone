@@ -1,4 +1,4 @@
-npm install for running 
+-> npm install <- for running 
 
 # Spotify Clone (Team 7) 
 
