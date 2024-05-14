@@ -19,15 +19,6 @@ Il nostro Spotify Clone offre una serie di funzionalità impressionanti che lo r
 
 - **Background Dinamico nei Dettagli degli Album**: Il background nella pagina di dettaglio di ciascun album viene generato dinamicamente, catturando il colore predominante della copertina dell'album, per un'esperienza visiva ancora più coinvolgente.
 
-## Da Fare
-
-Ci sono ancora alcune funzionalità che stiamo lavorando per implementare, tra cui:
-
-- **Implementare il Tasto Cerca**: Aggiungere una funzione di ricerca per trovare facilmente canzoni, album e artisti.
-
-- **Implementare Funzioni "Album" e "Artisti"**: Espandere l'applicazione per includere la visualizzazione e la gestione di album e artisti specifici.
-
-- **Versione per Smartphone e Tablet**: Aggiungere la media query per rendere compatibile l'app con i dispositivi mobile.
 
 ## Team
 
